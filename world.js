@@ -1,6 +1,6 @@
 var couch = {
-    cushions: looseChange,
-    fabric: ninetiesDamaskPattern,
+    cushions: `looseChange`,
+    fabric: `ninetiesDamaskPattern`,
     stains: "It's stains are many and magnificent",
     history: "Shrouded in mystery",
 };
@@ -72,3 +72,24 @@ const arrow = () => {}
 
 // javascript by default is `functionally scoped`, which means everything exists on a `function` level. 
 ////basically, everything inside of a function, can see everything inside the function. there is global scope, where a variable can exist as a global standard, and exists everywhere. It's the top level.
+//dot notation:
+let myFingers = {
+    fing1: `thumb`,
+    fing2: `index`,
+    fing3: `bird`,
+    fing4: `ring`,
+    fing5: `pinky`
+};
+
+let gamingFinga = myFingers.fing1;
+
+myFingers.fing3 = `the birdie`;
+
+let blueSword = {
+    author: "Robyn McKinley",
+    pages: 267,
+    newberryAward: true,
+    Owner: "Springville Library",
+};
+
+let bookAuthor = blueSword.author;
