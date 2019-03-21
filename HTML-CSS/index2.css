@@ -1,0 +1,47 @@
+*{
+    align-content: center;
+}
+
+body {
+    margin: auto;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+.header {
+width: 100%;
+height: 20vh;
+background-color: tomato;
+} 
+
+
+.odds, .evens {
+display: inline-block;
+height: 70vh;
+width: 48%;
+margin: 0;
+}
+
+.box1 {
+    background-color: cyan;
+    height: 33%;
+}
+
+.box2 {
+    background-color:greenyellow;
+    height: 50%;
+}
+
+.box3 {
+    background-color: palevioletred;
+    height: 33%;
+}
+
+.box4 {
+    background-color: cyan;
+    height: 50%;
+}
+.box5 {
+    background-color: greenyellow;
+    height: 33%;
+}

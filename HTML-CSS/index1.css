@@ -1,0 +1,23 @@
+.main {
+    display: inline-block;
+    text-align: center;
+    background-color: darkseagreen;
+    height: 800px;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+
+}
+
+.image {
+    display: inline-block;
+    margin: 50px;
+    image-resolution: 20px;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+}
