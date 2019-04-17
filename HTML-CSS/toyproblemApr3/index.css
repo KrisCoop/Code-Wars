@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body {
+    background-image: url('https://ak3.picdn.net/shutterstock/videos/17595793/thumb/1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.wrapper {
+    background-color:white;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.xtra {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.input input{
+    margin: 10px;
+}
